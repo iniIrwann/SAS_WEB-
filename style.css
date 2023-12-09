@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,700;1,800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+.border{
+    position: relative;
+    width: 150px;
+    height: 3px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    left: 23rem;
+}
+.border2{
+    position: absolute;
+    width: 220px;
+    height: 3px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 5%;
+}
+.judul{
+    font-family: 'Poppins',sans-serif;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+img{
+    border-radius: 5%;
+}
+.desc{
+    color:#fff ;
+    text-align: justify;
+}
+
+li{
+    text-decoration: none;
+    color: #fff;
+}
+.jarak{
+    padding-top: 25px;
+}
+.pemandangan{
+    background-image:url(8c97a1c1aa4a8bc3577a1d200fa9ef5f5574242b_s2_n3_y1.png);
+    background-size:cover;
+    padding-bottom: 49%;
+  }
+.shadow{
+    position: absolute;
+    bottom: 100%;
+    height: 300px;
+    width: 100%;
+    left: 0;
+    background:linear-gradient(to top, #000000, transparent);
+  }
+
+.page2{
+    padding-top: 30px;
+    position: relative;
+}
+.main-judul{
+    width: 100%;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+.border4{
+    position: absolute;
+    width: 485px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5%;
+}
+p{
+    margin-bottom: 1px;
+}
+desc, p{
+    text-indent: 50px;
+}
+span{
+    font-weight: 20px;
+    font-size: 40px;
+}
+.api1{
+  margin-bottom: 40px;
+}
+.api2{
+    margin-top: 40px;
+}
+.border3{
+    position: absolute;
+    width: 360px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5%;
+}
+.sub-img{
+    justify-content: center;
+}
+.desc2{
+ text-align: center;
+}
+.haha{
+    padding-left: 32px;
+    border-radius: 5%;
+}
+h2, h6{
+    color: #fff;
+    text-align: center;
+}
+.page3{
+  text-align: center;
+  justify-content: center;
+}
+.nav1{
+    padding-left: 70px;
+    cursor: pointer;
+}   
